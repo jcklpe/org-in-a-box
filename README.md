@@ -14,7 +14,7 @@ An all-in-one system of apps to provide basic web/cloud infrastructure for an or
 | Decision making platform  | [Loomio](https://www.loomio.org/)  |
 | Email  |   |
 | Mind Mapping  |   |
-| Documentation  |  [wiki.js](chown -R someuser:somegroup) |
+| Documentation  |  [wiki.js](https://wiki.js.org/) |
 |   |   |
 
 
