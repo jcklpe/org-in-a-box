@@ -16,7 +16,21 @@ An all-in-one system of apps to provide basic web/cloud infrastructure for an or
 | Mind Mapping  |   |
 | Documentation  |  [wiki.js](https://wiki.js.org/) |
 |   |   |
+|   |   |
+|   |   |
+|   |   |
+| Forum  | Discourse  |
+|   |   |
 
 
 ## License: 
 licensed under Cooperative Work License v 1.0
+
+## scratch notes:
+
+other stuff that might be useful
+yunohost.org
+Cloudron, and sandstorm. 
+
+Keycloak instead of gluu? 
+check more stuff here: https://yunohost.org/#/apps
