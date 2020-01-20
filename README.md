@@ -34,3 +34,8 @@ Cloudron, and sandstorm.
 
 Keycloak instead of gluu? 
 check more stuff here: https://yunohost.org/#/apps
+
+Doodle alternatives:
+https://framadate.org/
+https://nuages.domainepublic.net/
+https://dudle.inf.tu-dresden.de/
