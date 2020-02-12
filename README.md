@@ -15,7 +15,7 @@ An all-in-one system of apps to provide basic web/cloud infrastructure for an or
 | Email  |   |
 | Mind Mapping  |   |
 | Documentation  |  [wiki.js](https://wiki.js.org/) |
-|   |   |
+|  Helpdesk/ticket managment | https://github.com/zammad/zammad  |
 |   |   |
 |   |   |
 |   |   |
