@@ -63,4 +63,8 @@ Odoo
 SugarCRM
 https://www.vtiger.com/
 
+Remote Viewing/IT software:
+https://github.com/Jay-Rad/Remotely
+https://github.com/Ylianst/MeshCentral
+
 
