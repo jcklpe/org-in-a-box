@@ -39,3 +39,5 @@ Doodle alternatives:
 https://framadate.org/
 https://nuages.domainepublic.net/
 https://dudle.inf.tu-dresden.de/
+
+Other tools list to consider: https://opensource.builders/
