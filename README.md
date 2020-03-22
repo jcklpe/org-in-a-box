@@ -5,7 +5,7 @@ An all-in-one system of apps to provide basic web/cloud infrastructure for an or
 | Purpose  | Application  |
 |---|---|
 |  Single Sign On Authentication Server | [Gluu](https://www.gluu.org/)  |
-|  ontent Management System and Blogging | [Wordpress](https://wordpress.org/)  |
+|  Content Management System and Blogging | [Wordpress](https://wordpress.org/)  |
 | Cloud File Management and Groupware  | [NextCloud](https://nextcloud.com/)  |
 | Chat  | [RocketChat](https://rocket.chat/)  |
 | Notetaking and todo list  | [BulletNotes](https://gitlab.com/NickBusey/BulletNotes)  |
@@ -26,7 +26,7 @@ An all-in-one system of apps to provide basic web/cloud infrastructure for an or
 ## License: 
 licensed under Cooperative Work License v 1.0
 
-## scratch notes:
+# Research Notes
 
 other stuff that might be useful
 yunohost.org
@@ -41,3 +41,26 @@ https://nuages.domainepublic.net/
 https://dudle.inf.tu-dresden.de/
 
 Other tools list to consider: https://opensource.builders/
+
+Event/Meetup alternative:
+https://convo.events/
+
+Asana alt:
+https://leantime.io/
+
+Password managers:
+https://buttercup.pw/
+Also bitwarden
+
+Social Media management:
+commerical option: https://buffer.com/
+
+Grammarly alt:
+https://github.com/languagetool-org/languagetool
+
+CRM:
+Odoo
+SugarCRM
+https://www.vtiger.com/
+
+
