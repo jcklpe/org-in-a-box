@@ -40,7 +40,6 @@ https://framadate.org/
 https://nuages.domainepublic.net/
 https://dudle.inf.tu-dresden.de/
 
-Other tools list to consider: https://opensource.builders/
 
 Event/Meetup alternative:
 https://convo.events/
@@ -66,5 +65,9 @@ https://www.vtiger.com/
 Remote Viewing/IT software:
 https://github.com/Jay-Rad/Remotely
 https://github.com/Ylianst/MeshCentral
+
+Additional info/guides to check: 
+https://github.com/open-organization/github.opensource-guide
+https://opensource.builders/
 
 
