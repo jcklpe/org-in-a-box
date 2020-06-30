@@ -9,7 +9,7 @@ This is necessary because otherwise, every-time you add an additional web app to
 
 There are a lot of different ways to build a SSO flow but here is the basic anatomy of the SSO Solutions Engine:
 
-## SSO Solutions Engine
+## SSO Solutions Engine: Anatomy
 
 Examples: Auth0, Gluu, Keycloak, Shibboleth, Ping, Okta
 
@@ -61,8 +61,46 @@ This is the specific implementation of the standard
 
 Examples: Gluu oxAuth
 
-### What's the difference between authentication/authorization? 
+## What's the difference between authentication/authorization? 
 
 Imagine that getting into a web app is like getting into a house. Authentication is like having a friend lend you their key so you can get into their house. Authorization determines what you are allowed to do in the house, what rooms you can go into, whether or not you can kick your feet up on the couch etc. 
 
 You can have authentication without authorization, but most SSO systems are going to have both. 
+
+Here's [an article](https://spin.atomicobject.com/2016/05/30/openid-oauth-saml/) that explains more in depth. 
+
+## Primary division in SSO solution engines: Shibboleth/SAML versus OpenID Connect
+
+### Comparisons between OIDC and Shibboleth/SAML:
+
+- https://www.gluu.org/blog/oauth-vs-saml-vs-openid-connect/
+- https://identityblog.switch.ch/2016/03/08/openid-connect-meets-saml-and-shibboleth/
+
+### Notes:
+
+- OIDC is an OpenID authentication layer built ontop of a OAuth2 authorization layer
+- The choice seems to be primarily between Shibboleth and OIDC. 
+- OIDC is the more modern of the two and seems to have a lot of momentum behind it and is used by Google, Microsoft, Paypal, AOL, Salesforce and a bunch of others. 
+- OIDC relies on SSL for encryption stuff
+- OIDC uses a JSON Web Token.
+- SAML and OpenID 2.0 use XML
+- OIDC can work with both browser and mobile app integrations while SAML appears to be limited to just web
+- SAML website is: https://www.oasis-open.org/standards#samlv2.0
+
+OIDC website is: https://openid.net/connect/faq/
+
+### Factors to consider in making comparisons between the two:
+
+- Where is the puck going, and how do we skate to where it’s going?
+- Developer ease of use
+- Compatibility with web apps? Jitsi doesn’t support OIDC but it does support SAML
+
+
+
+## Further Reading:
+
+- [What Is and How Does Single Sign-On Authentication Work?](https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/)
+- [Federated Identity vs SSO](https://www.okta.com/identity-101/federated-identity-vs-sso/)
+- [What is SSO and why your apps should support it](https://www.okta.com/blog/2019/05/what-is-federation-and-why-should-your-apps-support-it/)
+- [Ory Project](https://www.ory.sh/hydra/docs/oauth2/)
+
