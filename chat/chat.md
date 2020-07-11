@@ -3,7 +3,9 @@
 
 ## Motivation
 
-As part of the Chapter In a Box project, we need a way for members to chat with each other in large groups. Many chapters use Slack, but Slack is closed-source, does not offer us control over our data, and charges sky-high fees for advanced features.  What do we need from our chat app? How can we fill this need as cheaply and easily as possible while protecting our member's data?
+As part of the Chapter In a Box project, we need a way for members to chat with each other in large groups. Many chapters use Slack, but Slack is closed-source, does not offer us control over our data, and charges sky-high fees for advanced features. We cannot trust Slack will not mis-use or share our member's data without our consent, and we cannot afford to pay for advanced services that we need.
+
+What do we need from our chat app? How can we fill this need as cheaply and easily as possible while protecting our member's data?
 
 ### What we need
 * Channels for a large number of users to post in
@@ -20,10 +22,10 @@ As part of the Chapter In a Box project, we need a way for members to chat with 
 
 ## The Contenders
 Given this list, there are a few open-source Slack alternatives I investigated:
-* [Zulip](zulipchat.com)
-* [Mattermost](mattermost.org)
-* [Rocket Chat](rocket.chat)
-* [Matrix.org](matrix.org)
+* [Zulip](https://zulipchat.com)
+* [Mattermost](https://mattermost.org)
+* [Rocket Chat](https://rocket.chat)
+* [Matrix](https://matrix.org)
 
 Zulip and Mattermost do not offer federation or any kind of encryption. It has a lot of other positives but these two facts combined make them a non-starter. For other organizations or situations, these apps may work very well, but in our case they are not a good fit.
 
@@ -48,12 +50,12 @@ Let's take a deep dive into Matrix, and see what would be great for us, what's n
 * Matrix is out of beta and has the strongest security and privacy features available in any chat app on the market
 * Built for decentralized yet secure servers - all servers whose users are participating in a conversation store a copy of the message so there is no one SPOF, and all messages are secured such that it's not easy for admins to just open a DB and read them as is the case with other options
 * One-on-one VoIP/Video calling included*
-* Integrates with 3rd party IdPs for free - **no other option has this**
 * Riot makes it easy to join multiple Matrix servers - if we assume the entire org is on Matrix this makes collaboration very easy!
 
 #### The Meh
 * The UX of Riot is fine but not great.
 * Matrix has not been out of beta very long and is still quite "rough around the edges" in a lot of ways. While Rocket Chat is also not as polished as Slack, Riot is a little worse in this regard.
+* SAML/3rd party IdP login is technically available but does not look to be stable or easy to configure yet 
 * There is a comprehensive setup Ansible workbook that configures Synapse, Jitsi, and a lot of other helpful add-ons automatically, but...
 * Community/room management tools are available, but in the fashion of open source they all need to be installed/configured/updated/secured and it's not terribly easy.
 
@@ -113,4 +115,4 @@ While Matrix is a solid contender I think Rocket Chat's ease of use will help us
 
 No matter what we pick, we will need significant change management resources (documentation, training sessions, FAQs, q+a with us, etc) to make the transition successful, which is why I weight ease of installation, ease of securing the server, the UX styling and other ease of use concerns so highly.
 
-We are not an enterprise; we cannot push software to user's devices or create accounts for them; we do not have the volunteer hours to set up any chat server for every chapter (if they would even let us!); and especially during the COVID crisis chat is the most important tools chapters use to communicate. Splitting a chapter - either technically, by their admin goofing up their only method to communicate with each other - or culturally, by not having certain cohorts of users switch to Rocket Chat and petition to keep Slack, would be terrible.
+We are not an enterprise; we cannot push software to user's devices or create accounts for them; we do not have the volunteer hours to set up any chat server for every chapter (if they would even let us!); and especially during the COVID crisis chat is the most important tool chapters use to communicate. Splitting a chapter - either technically, by their admin goofing up their only method to communicate with each other - or culturally, by not having certain cohorts of users switch to Rocket Chat and petition to keep Slack, would be terrible.
