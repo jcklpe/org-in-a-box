@@ -25,7 +25,14 @@ Given this list, there are a few open-source Slack alternatives I investigated:
 * [Rocket Chat](rocket.chat)
 * [Matrix.org](matrix.org)
 
-Zulip and Mattermost do not offer federation or any kind of encryption. It has a lot of other positives but these two facts combined make them a non-starter. For other organizations or situations, these apps may work very well, but in our case they are not a good fit.
+## Zulip
+Zulip was easy to install and the official Zulip client can connect to self-hosted servers, which was a great start. Zulip uses a unique threading system that takes getting used to, but some find very useful and I could see the utility of it. For people unfamiliar with the way it works, it's not a hinderance to basic use. Zulip is open soruce and seemed to welcome contributions, but wasn't a busy repo.
+
+The ultimate issue with Zulip is that it was just *too* simple. Updating looked like a chore, there was no E2EE (a server admin could verify easily export all messages), no federation, no built in video calls, and the list goes on. Zulip was too restrictive; we would be asking Slack users to give up far too much when switching. The unique UX of Zulip was also a concern.
+
+## Mattermost
+
+I disqualified Mattermost somewhat quickly, despite its many features and apparent benefits. One look at Mattermosts's [install guide](https://docs.mattermost.com/install/install-ubuntu-1804.html) basically ensures that the person I had in mind for installing the software - someone without Linux experience - would fail in the installation process. I was disappointed as Mattermost seemed stable and feature rich, and I may revisit it later to see if there's a better way to install and keep all those components updated (I found a bash script to do exactly what I had in mind, but it was two years old), but for now it was off the list.
 
 This leaves Rocket Chat and Matrix as the two viable options. Let's look at the pros and cons of each.
 
