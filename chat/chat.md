@@ -36,6 +36,10 @@ I disqualified Mattermost somewhat quickly, despite its many features and appare
 
 This leaves Rocket Chat and Matrix as the two viable options. Let's look at the pros and cons of each.
 
+## Briar
+
+https://briarproject.org/how-it-works/
+
 ## Matrix
 Matrix offers a lot of what we need - it's designed with federation and security in mind, it's totally open source with no paid plan at all, and it has a significant amount of energy behind it in the open source community.
 
